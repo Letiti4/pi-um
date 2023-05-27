@@ -1,0 +1,68 @@
+UNGUBANI>
+<html>
+<head>
+  <title>IGBESI AYE MI</title>
+  <style>
+body{
+    background-color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: chocolate;
+}
+    </style>
+  <hr> 
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#resumo">Quem sou eu</a></li>
+        <li><a href="#hobbies">Nuances</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div id="resumo">
+    <h2>IGBESI AYE MI= Minha vida</h2>
+    <p>
+      Letícia. 1995. Graduanda em Direito com um 
+      talento nato para cuidado e demais atividades 
+      que sejam necessárias justiça, verdade e lealdade.
+      Mãe do Miguel. Esposa do Ex-Resiliente Alexandre Cezar.
+      Determinada, responsável e Perseverante. 
+      Tenho interesse nas áreas de D&I. 
+      Soft na veia!
+      "</p>
+  </div>
+  
+  <div id="hobbies">
+    <h2>Nuances</h2>
+    <p>
+      Amo música, dançar, 
+      comer (principalmente brócolis e Batata frita),
+      dormir e estar na companhina das pessoas que amo.
+    </p>
+  </div>
+  
+  <div id="contato">
+    <h2>Contato</h2>
+    <form>
+      <label for="nome">contato</label>
+      <input type="text" id="nome" name="nome" required>
+      
+      <label for="email">email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="mensagem">mensagem
+        :</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+      
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</body>
+</html>
